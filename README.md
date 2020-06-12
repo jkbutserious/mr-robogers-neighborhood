@@ -1,10 +1,14 @@
-# Mr Roboger's Neighborhood
+# Mr. Robogers' Neighborhood
 
 #### Looping and Branching Exercise, 6.12.2020
 
 #### By Jeff Kim
 
 ## Description
+
+Mr. Robogers would like to welcome you to his neighborhood! He is very excited to see you and would like to have a neighborly conversation. His favorite thing to talk about is numbers and he has a lot of opinions about them (particularly about the numbers 1, 2, and 3)!
+
+Please introduce yourself to Mr. Robogers and tell him what your favorite number is!
 
 This program accepts user input in the form of numbers and returns the input to the user, with the following exceptions:
 
