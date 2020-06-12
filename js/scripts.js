@@ -3,6 +3,7 @@ $(document).ready(function() {
   $("#formOne").submit(function(event) {
     event.preventDefault();
     const userNumber = parseInt($("input#user-number").val());
+    $("#output").show();
     $("#robo-response").text("");
     $("#robo-response").append(roboResponse(userNumber));
   });
