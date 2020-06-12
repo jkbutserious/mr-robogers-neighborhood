@@ -73,7 +73,7 @@ To contribute to this project:
 ## Known Bugs
 
 **Initial Release**
-* No known bugs
+* The point of Mr. Roboger's speech bubble does not display correctly in low-width viewports
 
 ## Support and contact details
 

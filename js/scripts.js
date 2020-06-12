@@ -5,13 +5,18 @@ $(document).ready(function() {
     const userNumber = parseInt($("input#user-number").val());
     const userName = $("input#user-name").val();
     $("#output").show();
-    $("#robo-response").text("");
-    $("#robo-response").append(roboResponse(userNumber, userName));
+    // $("#robo-response").text("");
+    $("#robo-response").text(roboResponse(userNumber, userName));
+  });
+
+  $("#reverse-button").click(function() {
+    const roboInput = ($("#robo-response").text()).split(" ");
+    $("#robo-response").text(roboReverse(roboInput));
   });
 });
 
 // Business Logic
-const roboResponse = function(number, name) {
+const roboResponse = function (number, name) {
   let numberSequence = "";
   const numberArray = [];
 
@@ -32,4 +37,11 @@ const roboResponse = function(number, name) {
     numberSequence = numberSequence + " " + numberArray[i];
   }
   return numberSequence;
+}
+const roboReverse = function (splitString) {
+  let roboOutput = "";
+  for (i = splitString.length - 1; i >= 0; i--) {
+    roboOutput = roboOutput + " " + splitString[i];
+  }
+  return roboOutput;
 }
