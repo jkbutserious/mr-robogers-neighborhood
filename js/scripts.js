@@ -10,6 +10,12 @@ $(document).ready(function() {
 })
 
 // Business Logic
-let roboResponse = function(number) {
-  return number
+const roboResponse = function(number) {
+  const numberArray = number.split("");
+  let numberSequence = "";
+
+  for (i = 0; i < numberArray.length; i++) {
+    numberSequence = numberSequence + " " + numberArray[i];
+  }
+  return numberSequence;
 }
