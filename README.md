@@ -37,7 +37,7 @@ Example Output: "0 Beep! Boop! Won't you be my neighbor? 4 5 6 7"
 
 6. Code should replace all returned numbers containing 2 or more exceptions as the appropriate string in descending order of importance
 Example Input: "13"
-Example Output: "1 ... 9 Beep! Beep! Boop! Won't you be my neighbor?"
+Example Output: "0 1 ... 9 Beep! Beep! Boop! Won't you be my neighbor?"
 
 7. Code should clear previous output when user submits a new number
 Example Input: "1" -> "2"
