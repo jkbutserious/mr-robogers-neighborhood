@@ -1,3 +1,6 @@
+.row {
+  margin: 5rem;
+}
 #human-being {
   
 }
@@ -7,6 +10,7 @@
   box-shadow: 0 0 3rem #b3b3b3;
   min-height: 200px;
   margin: 20px;
+  padding: 2rem;
 }
 #human-input::after {
   background-color: lightgreen;
@@ -27,17 +31,17 @@
   background-color: #F2F2F2;
   border-radius: 2rem;
   box-shadow: 0 0 3rem #B2B2B2;
-  /* min-height: 200px; */
+  min-height: 200px; 
   margin: 20px;
   padding: 2rem;
 }
 #output::before {
   background-color: #F2F2F2;
-  box-shadow: -1rem 1rem 1rem 0 rgba( 178, 178, 178, .4 );
+  box-shadow: 0rem 1rem -1rem 0 rgba( .4, 178, 178, 178 );
   content: "\00a0";
   display: block;
   height: 20px;
-  left: -30px;
+  left: 590px;
   position: relative;
   top: 50px;
   transform: rotate( 45deg );
