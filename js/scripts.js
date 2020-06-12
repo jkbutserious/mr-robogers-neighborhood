@@ -15,10 +15,10 @@ const roboResponse = function(number) {
   const numberArray = [];
 
   for (i = 0; i < number; i++) {
-    // if (numberArray[i] === 1) {
-    //   numberArray[i] = "Beep!";
-    // }
     numberArray[i] = i;
+    if (numberArray[i] === 1) {
+    numberArray[i] = "Beep!";
+  }
     numberSequence = numberSequence + " " + numberArray[i];
   }
   return numberSequence;
