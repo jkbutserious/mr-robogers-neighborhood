@@ -1,3 +1,13 @@
+body {
+  background: center url(../img/pixel-cloud-set_41992-128.jpg);
+  background-size: cover;
+  /* background-color: #64B5F6; */
+}
+h1, h2 {
+  font-family: "Lucida Console", Monaco;
+  font-weight: bold;
+  text-align: center;
+}
 .row {
   margin: 5rem;
 }
@@ -5,6 +15,7 @@
   
 }
 #human-input {
+  font-family: "Impact";
   background-color:lightgreen;
   border-radius: 2rem;
   box-shadow: 0 0 3rem #b3b3b3;
@@ -12,28 +23,43 @@
   margin: 20px;
   padding: 2rem;
 }
-#human-input::after {
+#human-input::before {
   background-color: lightgreen;
   box-shadow: -1rem 1rem 1rem 0 rgba( 178, 178, 178, .4 );
   content: "\00a0";
   display: block;
   height: 20px;
-  left: -10px;
+  left: -30px;
   position: relative;
   top: 20px;
   transform: rotate( 45deg );
   width:  20px;
 }
+#human-input input {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 5%
+}
+#human-input button {
+  font-size: 20px;
+  display: block;
+  max-width: 300px;
+  margin: auto;
+}
 #mr-robogers {
+  z-index: -1;
 }
 #output {
   display: none;
+  font-family: "Lucida Console", Monaco;
+  font-size: 15px;
   background-color: #F2F2F2;
   border-radius: 2rem;
   box-shadow: 0 0 3rem #B2B2B2;
   min-height: 200px; 
   margin: 20px;
   padding: 2rem;
+  z-index: 1;
 }
 #output::before {
   background-color: #F2F2F2;
