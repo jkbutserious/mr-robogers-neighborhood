@@ -39,6 +39,10 @@ Example Output: "0 Beep! Boop! Won't you be my neighbor? 4 5 6 7"
 Example Input: "13"
 Example Output: "1 ... 9 Beep! Beep! Boop! Won't you be my neighbor?"
 
+7. Code should clear previous output when user submits a new number
+Example Input: "1" -> "2"
+Example Output: "Boop!"
+
 ## Setup/Installation Requirements
 
 To use this site:
